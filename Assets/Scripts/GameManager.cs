@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
         = new string[] { 
             "<color=#cc0000>Selineae\n불</color>", 
             "<color=#0033cc>Neru\n물</color>", 
-            "<color=#333333>Pete\n바위</color>", 
+            "<color=#999999>Pete\n바위</color>", 
             "<color=#99ccff>Aeris\n바람</color>"}; //속성 배열
 
     public GameObject VictoryPanel;//승리 화면
