@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
     public GameObject Blind2;
     public GameObject Blind3;
 
-
+    
     void Start()    //초기 세팅
     {
         Text T1_1 = B1_1.GetComponentInChildren<Text>();    //버튼 텍스트 변수
@@ -135,7 +135,6 @@ public class GameManager : MonoBehaviour
 
     public void Point(GameObject Btn)   //재료 모음
     {
-        Image Btnimg = Btn.GetComponent<Image>();
         Btn.GetComponent<Button>().interactable = false;
         stagePoint++;
 
